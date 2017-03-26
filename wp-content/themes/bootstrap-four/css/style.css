@@ -1,0 +1,133 @@
+html {
+	color: #1c2223;
+}
+.navbar-brand{
+	padding: 5px;
+}
+.navbar-brand>img{
+	max-width: 100px;
+}
+.nav .navbar-nav .navbar-right li a{
+	word-wrap: break-word;
+}
+.dropdown-toggle{
+	white-space: normal;
+	word-wrap: break-word;
+}
+.dropdown-menu li {
+	word-wrap: break-word;
+}
+
+
+
+
+/*------ TOP MENU PART ----------*/
+.top-menu-ul li {
+	max-width: 110px;
+	font-size: 9px;
+	text-align: center;
+}
+
+.li-dropdown-name {
+	display: inline-block;
+	width: 80%;
+}
+
+.caret {
+	display: inline-block;
+	width: 10%;
+}
+
+.ugdymo-organizavimas-top-menu-li {
+	max-width: 130px !important;
+}
+
+.navbar-toggle {
+	margin-top: 23px;
+}
+.navbar{
+	margin-bottom: 0;
+}
+
+.image-shadow:hover {
+	background-color: #000;
+}
+
+/*.carousel-inner img {
+	filter: grayscale(100%);
+}
+
+.carousel-inner img:hover {
+	filter: grayscale(100%);
+}
+*/
+
+/*-----END OF TOP MENU PART -----*/
+
+/* carusel class*/
+
+.carousel-inner{
+	width:100%;
+  	max-height: 683px;
+}
+
+.h3-under {
+	font-size: 10px;
+}
+
+
+h1, .h1{
+	font-weight: bold;
+}
+h3, .h3{
+margin-top: 0;
+}
+
+/*--button color--*/
+.btn-moreinfo{
+	color: #fff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+}
+
+.btn{
+	
+	margin-bottom: 0;
+	margin-top: 30px;	
+	border-radius: 3px;
+	padding: 10px 25px;
+	font-size: 10px;
+
+}
+ul{
+	padding: 0;
+}
+li {
+	display:block;
+	color: #ffffff;
+}
+.footer-text-style{
+	margin: 5px;
+	font-size: 10px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.footer-text-st{
+	font-size: 10px;
+	margin: 5px;
+}
+.footer-text{
+	color: #fff;
+}
+/*----- MEDIA QUERIES -----*/
+@media (max-width: 918px) {
+	.top-menu-ul li {
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 767px) {
+	.news-img {
+		display: none;
+	}
+}
